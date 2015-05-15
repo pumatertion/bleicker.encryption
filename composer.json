@@ -1,0 +1,26 @@
+{
+	"name": "bleicker/encryption",
+	"type": "library",
+	"require": {
+		"bleicker/exception": "1.0.*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+	"authors": [
+		{
+			"name": "Carsten Bleicker",
+			"email": "carsten@bleicker.de"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Bleicker\\Encryption\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\Bleicker\\Encryption\\": "tests"
+		}
+	}
+}
